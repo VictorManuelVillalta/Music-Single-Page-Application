@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.track-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.track img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.track-details p {
+  margin: 5px 0;
+}
